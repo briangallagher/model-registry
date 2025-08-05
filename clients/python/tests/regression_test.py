@@ -1,8 +1,8 @@
 import pytest
 import requests
 
-from model_registry import ModelRegistry
-from model_registry.types.artifacts import ModelArtifact
+from kubeflow.model_registry import ModelRegistry
+from kubeflow.model_registry.types.artifacts import ModelArtifact
 
 from .conftest import REGISTRY_HOST, REGISTRY_PORT
 

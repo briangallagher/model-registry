@@ -2,8 +2,8 @@
 
 import pytest
 
-from model_registry.core import ModelRegistryAPIClient
-from model_registry.types import (
+from kubeflow.model_registry.core import ModelRegistryAPIClient
+from kubeflow.model_registry.types import (
     DocArtifact,
     ModelArtifact,
     ModelVersion,

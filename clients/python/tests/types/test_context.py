@@ -1,4 +1,4 @@
-from model_registry.types.contexts import ModelVersion, RegisteredModel
+from kubeflow.model_registry.types.contexts import ModelVersion, RegisteredModel
 
 
 def test_model_version_repr():

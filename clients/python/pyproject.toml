@@ -7,8 +7,8 @@ license = "Apache-2.0"
 readme = "README.md"
 homepage = "https://github.com/kubeflow/model-registry"
 packages = [
-    { include = "model_registry", from = "src" },
-    { include = "mr_openapi", from = "src" },
+    { include = "kubeflow/model_registry", from = "src" },
+    { include = "kubeflow/mr_openapi", from = "src" },
 ]
 
 [tool.poetry.urls]

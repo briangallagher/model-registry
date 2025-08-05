@@ -2,9 +2,9 @@ import os
 
 import pytest
 
-from model_registry import utils
-from model_registry.exceptions import MissingMetadata
-from model_registry.utils import (
+from kubeflow.model_registry import utils
+from kubeflow.model_registry.exceptions import MissingMetadata
+from kubeflow.model_registry.utils import (
     _get_files_from_path,
     s3_uri_from,
     save_to_oci_registry,

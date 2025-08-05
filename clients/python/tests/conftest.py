@@ -22,8 +22,8 @@ from schemathesis import Case, Response
 from schemathesis.generation.stateful.state_machine import APIStateMachine
 from schemathesis.specs.openapi.schemas import BaseOpenAPISchema
 
-from model_registry import ModelRegistry
-from model_registry.utils import BackendDefinition, _get_skopeo_backend
+from kubeflow.model_registry import ModelRegistry
+from kubeflow.model_registry.utils import BackendDefinition, _get_skopeo_backend
 
 from .constants import DEFAULT_API_TIMEOUT
 

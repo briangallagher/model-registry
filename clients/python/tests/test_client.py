@@ -4,10 +4,10 @@ from itertools import islice
 import pytest
 import requests
 
-from model_registry import ModelRegistry, utils
-from model_registry.exceptions import StoreError
-from model_registry.types import ModelArtifact
-from model_registry.types.artifacts import DocArtifact
+from kubeflow.model_registry import ModelRegistry, utils
+from kubeflow.model_registry.exceptions import StoreError
+from kubeflow.model_registry.types import ModelArtifact
+from kubeflow.model_registry.types.artifacts import DocArtifact
 
 
 def test_secure_client():

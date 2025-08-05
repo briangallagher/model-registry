@@ -4,8 +4,8 @@ from collections.abc import AsyncIterator
 
 import pytest
 
-import mr_openapi
-from mr_openapi import (
+import kubeflow.mr_openapi
+from kubeflow.mr_openapi import (
     Artifact,
     DocArtifact,
     MetadataValue,
